@@ -1,0 +1,9 @@
+<library path="/lib/libcpr_rviz">
+  <class
+         type="cpr_rviz::TeleopPanel"
+         base_class_type="rviz::Panel">
+    <description>
+      Attempt at loading CPR RViz interface.
+    </description>
+ </class>
+</library>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cpr_rviz</name>
+  <version>0.1.0</version>
+  <description>My attempt at creating the CPR RViz plugin</description>
+  <maintainer email="todo@todo.com">Tudor</maintainer>
+  <license>BSD</license>
+
+
+
+  <author>Tudor</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
+  <depend>rviz</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>roslaunch</depend>
+	
+	
+  <export>
+	<rviz plugin="${prefix}/plugin_description.xml" />  
+  </export>
+  
+</package>
